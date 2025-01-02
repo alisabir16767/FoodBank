@@ -1,6 +1,4 @@
-Here's a simplified and updated version of your README file with basic information:
 
----
 
 # 🌽 FoodBank
 
