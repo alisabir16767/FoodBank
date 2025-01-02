@@ -1,148 +1,92 @@
+Here's a simplified and updated version of your README file with basic information:
+
+---
+
 # 🌽 FoodBank
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✍🏼 Description
 
-According to the CONEVAL (Consejo Nacional de Evaluacion de la Politica de Desarrollo Social) found that 22.5% of the population in Mexico are at risk due to a lack of access of nutrititous good quality food.
+**FoodBank** is a platform designed to connect communities with food banks to combat food insecurity. It aims to provide an intuitive, equitable, and innovative tool for managing inventory, tracking distributions, and supporting those in need. Built with **React**, **MongoDB**, and **Chakra UI**, FoodBank ensures an efficient and user-friendly experience.
 
-FoodBank is an idea created as a tool to help the most vulnerable in our community. With the intent to bridge communities to food banks we have created FoodBank. It was thoughtout to be equitable to the community, intuite for its users and innovative for future development.
+---
 
-Using React, mongoDB, Chakra UI and the skills of a multitalented team we have created FoodBank.
+## 📄 Table of Contents
 
-<img src="foodbank/client/src/assets/girl-apples.png" style="height: 30vh; margin-left: auto; margin-right: auto;" />
-
-## 📄 Table Content
-
-- [Important Links](#important-links)
-- [Installation Instructions](#installation-instructions)
-- [Usage Information](#usage-information)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
 - [License](#license)
-- [Questions](#questions)
-- [Credits](#👩🏻‍💻👨🏻‍💻credits)
+- [Contributors](#contributors)
+- [Contact](#contact)
 
-## ‼️ Important Links
-
-- [Github Repository](https://github.com/jony0418/FoodBank.git)
-- [Walkthrough Video]()
-- [Project Presentation]()
-
-## 💻 Technologies
-
-FoodBank also uses a variety of dependencies to make this application funtion:
-
-```
-- concurrently: "^5.1.0"
-- @chakra-ui: "^1.0.0",
-- graphql: "^15.4.0",
-- date-fns": "^2.30.0".
-- @apollo/client: "^3.3.7"
-- eslint: "^8.47.0"
-```
-
-</br>
-
-<div style="display: inline_block">
-
-<img src="foodbank/client/src/assets/javascript.svg" style="height: 13vh; padding: 5vw" />
-<img src="foodbank/client/src/assets/mongodb.svg" style="height: 13vh; padding: 5vw" />
-<img src="foodbank/client/src/assets/node-js.webp" style="height: 13vh; padding: 5vw" /> 
-<img src="foodbank/client/src/assets/graphql.svg.png" style="height: 13vh; padding: 5vw" />
-<img src="foodbank/client/src/assets/react.svg" style="height: 13vh; padding: 5vw" />
-<img src="foodbank/client/src/assets/chakraui.png" style="height: 13vh; padding: 5vw" />
-
-</div>
-
-</br>
+---
 
 ## 🛠️ Installation
 
-To successfully install this proyect follow the guideline:
+To set up the project locally:
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/alisabir16767/FoodBank.git
+   ```
 
-   `https://github.com/jony0418/FoodBank.git`
+2. Navigate to the project directory:
+   ```bash
+   cd FoodBank
+   ```
 
-2. Install your backend and frontend dependencies
+3. Install dependencies for both frontend and backend:
+   ```bash
+   npm install
+   ```
 
-   `npm i`
-
-## 👨🏽‍🌾 User Story
-
-```
-Dashboard and Overview
-
-Given that I am an authorized user of the food bank platform,
-When I log in to the platform with my credentials,
-Then I should be directed to the dashboard that provides an overview of the current recent distribution activities, and relevant statistics through graphical representations.
-
- Adding Products to Inventory
-
-Given that I am on the dashboard,
-When I select the "Add New Product" option,
-Then I should be able to input details such as product name, and quantity.
-And upon submission, the product should be added to the inventory.
-
-Managing Inventory
-
-Given that I am on the dashboard,
-When I navigate to the "Inventory Management" section,
-Then I should be able to view the list of all products in the inventory with their current quantities,
-And I should have the option to edit product details or quantities if needed,
-And I should be able to remove products from the inventory.
-
-Tracking Distribution History
-
-Given that I am on the dashboard,
-When I navigate to the "Distribution History" section,
-Then I should see a chronological list of all distribution activities, including product details,
-
-Recording Product Distribution
-
-Given that I am on the dashboard,
-When I access the "Distribution Management" section,
-Then I should be able to record the distribution of products by number of families.
-And upon distribution, the inventory quantity of the distributed product should be automatically updated.
-
-```
+---
 
 ## 📈 Usage
 
-To begin using this application follow the next steps:
+To start the application:
 
-1. Start your backend server:
+1. Start the backend server:
+   ```bash
+   cd backend
+   npm start
+   ```
 
-   `cd backend`
+2. Start the frontend application:
+   ```bash
+   cd client
+   npm start
+   ```
 
-   `npm start`
+---
 
-2. Start the frontend application
+## 💻 Technologies Used
 
-   `cd client`
+- **React** for the frontend
+- **MongoDB** for the database
+- **Node.js** and **Express** for the backend
+- **Chakra UI** for styling and design
+- **GraphQL** for API development
 
-   `npm start`
+---
 
-## Tests Instructions
+## 👩🏻‍💻 Contributors
 
-Not Applicable
+- [Sabir Ali](https://github.com/alisabir16767)
 
-## ❓ Questions
+---
 
-If you have any questions you may contact any of the contributing members.
+## ❓ Contact
 
-## 👩🏻‍💻👨🏻‍💻 Credits
+If you have any questions or need further assistance, feel free to contact [Sabir Ali](mailto:alisabir167167@gmail.com).
 
-This proyect was created by:
+---
 
-- [Rodrigo Roldan](https://github.com/RodrigoRoL);
-- [Gerardo Garcia-Salas](https://github.com/SalasGS94);
-- [Santiago Valenzuela](https://github.com/santis1001);
-- [Jose Maria Hernandez ](https://github.com/ChemaKing13);
-- [Isabella Ruiz](https://github.com/isanator2000)
-- [Jonathan Becerra](https://github.com/jony0418);
-- [Andrea Ceron](https://github.com/aceron2205)
+## 📜 License
 
-## License
+This project is licensed under the MIT License. For more details, see the [LICENSE](https://opensource.org/licenses/MIT).
 
-This application is covered under the MIT License. For more info, click here: [License: MIT](https://opensource.org/licenses/MIT)
-created
+---
+
+You can replace the content as needed or add more sections! Let me know if you want further refinements.
